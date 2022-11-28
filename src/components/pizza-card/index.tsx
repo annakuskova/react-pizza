@@ -79,7 +79,7 @@ const PizzaCard: FC<PizzaCardProps> = ({ pizza, onAddPizza }) => {
               onClick={() => setActiveSize(size)}
               className={activeSize === size ? "active" : ""}
             >
-              {size} см.
+              {size} см
             </li>
           ))}
         </ul>
